@@ -1,8 +1,10 @@
 @custom-selector :--heading h1, h2, h3, h4, h5, h6;
 @custom-media --viewport-small (width <= 500px);
+@import 'vars.css';
+@import 'card.css';
 
 body {
-  background-color: beige;
+  background-color: $lightColor;
   border-radius: 5px;
 }
 
@@ -20,10 +22,4 @@ form {
 
 input::placeholder {
   color: red;
-}
-
-.card {
-  h2 {
-    color: blue;
-  }
 }

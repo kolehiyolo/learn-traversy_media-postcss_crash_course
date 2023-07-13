@@ -13,9 +13,14 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
     "postcss": "^8.4.25",
+    "postcss-assets": "^6.0.0",
     "postcss-cli": "^10.1.0",
     "postcss-preset-env": "^9.0.0",
     "precss": "^4.0.0"
+  },
+  "dependencies": {
+    "postcss-import": "^15.1.0"
   }
 }
