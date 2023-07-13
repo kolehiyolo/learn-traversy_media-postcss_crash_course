@@ -1,0 +1,21 @@
+{
+  "name": "traversy_media-postcss_crash_course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:css": "postcss src/input.css -o dist/style.css -w",
+    "build:css": "postcss src/input.css -o dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.25",
+    "postcss-cli": "^10.1.0",
+    "postcss-preset-env": "^9.0.0",
+    "precss": "^4.0.0"
+  }
+}

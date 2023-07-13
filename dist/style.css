@@ -1,0 +1,30 @@
+body {
+  background-color: beige;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+  gap: 20px;
+}
+
+@media(max-width: 500px) {
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 40px
+}
+  }
+
+input::-moz-placeholder {
+  color: red;
+}
+
+input::placeholder {
+  color: red;
+}
+
+.card h2 {
+    color: blue;
+  }
